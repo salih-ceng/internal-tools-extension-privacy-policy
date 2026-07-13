@@ -1,31 +1,73 @@
-# Privacy Policy
+Privacy Policy
 
-This extension does not collect, store, or process any personal data.
+Last updated: July 13, 2026
 
-## Data Collection
+Internal Tools Extension is designed for internal or enterprise browser-policy deployments. This Privacy Policy explains how the extension handles information.
 
-The extension does not collect personally identifiable information, browsing history, location data, financial information, health data, or user activity.
+Information We Do Not Collect
 
-## License Validation
+The extension does not collect, store, or transmit:
 
-If license keys are used, they are transmitted securely over HTTPS to the developer’s validation server solely for the purpose of verifying access to the extension’s features.
+Website content, uploaded files, form entries, messages, or page text
 
-License keys are not linked to personal identities and are not used to track or identify individual users.
+Browsing history or browsing activity
 
-No additional device identifiers, IP addresses, browser fingerprints, or usage analytics are collected by the extension.
+Location information
 
-## Data Storage
+Financial or payment information
 
-The extension stores the license key locally using Chrome’s storage API. No personal data is stored on external servers.
+Health information
 
-## Data Sharing
+Analytics, advertising, or profiling data
 
-No user data is sold, shared, or transferred to third parties.
+The extension may locally inspect the presence of upload-related browser controls and the current website host only as needed to apply its policy controls. This information is not retained or transmitted to the developer.
 
-## Single Purpose
+License Validation Information
 
-The extension has a single purpose: enforcing internal browser usage policies in controlled environments.
+To enable licensed functionality, the extension may handle the following information:
 
-## Contact
+A license key entered by the user
 
-For questions regarding this privacy policy, please contact the developer via the associated GitHub repository.
+A randomly generated installation identifier
+
+License status and expiration information
+
+License policy and allowlist configuration returned by the validation service
+
+The license key and installation identifier are transmitted securely over HTTPS to https://license-server-mziq.onrender.com solely to validate the license, retrieve authorized configuration, and enforce device-assignment rules where applicable.
+
+This information is not used for advertising, analytics, tracking, profiling, or any purpose unrelated to license validation and the extension's internal policy controls.
+
+Local Storage
+
+The extension stores license-related information locally in Chrome using Chrome's storage API. This may include the license key, installation identifier, license status, expiry information, and policy configuration.
+
+Local license-related information remains in the browser until it is changed, removed, or the extension is uninstalled.
+
+Data Sharing
+
+License-validation information is transmitted only to the developer's license-validation service, hosted through Render, for the limited purpose of providing license validation and related configuration.
+
+We do not sell user data. We do not share user data for advertising, marketing, analytics, profiling, credit assessment, or any unrelated purpose.
+
+Data Retention
+
+The license-validation service retains license-validation records only for as long as reasonably necessary to validate licenses, maintain license status, and enforce device-assignment rules.
+
+Website content, uploaded files, browsing history, and browsing activity are not retained by the extension or transmitted to the developer.
+
+Security
+
+License-validation information is transmitted using HTTPS. The extension does not intentionally expose license-related information to other websites or users.
+
+Single Purpose
+
+The extension has a single purpose: helping organizations enforce internal browser usage and security policies in controlled environments.
+
+Changes to This Policy
+
+This Privacy Policy may be updated when the extension's data practices change. Any updated version will be published at this page.
+
+Contact
+
+For questions about this Privacy Policy, contact the developer through the associated GitHub repository.
